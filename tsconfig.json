@@ -5,12 +5,22 @@
     "module": "commonjs",
     "rootDir": "./src",
     "outDir": "./build",
+    "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
     "skipLibCheck": true
   },
-  "include": ["./src/**/*"],
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }
