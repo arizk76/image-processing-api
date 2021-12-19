@@ -7,7 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ahmed Rizk",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arizk76/image-processing-api"
+  },
+  "bugs": {
+    "url": "https://github.com/arizk76/image-processing-api/issues"
+  },
+  "homepage": "https://github.com/arizk76/image-processing-api#README",
   "devDependencies": {
     "@types/node": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
